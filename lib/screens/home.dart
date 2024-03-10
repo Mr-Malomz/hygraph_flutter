@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:hygraph_flutter/components/news_row.dart';
 
 class Home extends StatefulWidget {
@@ -12,7 +11,6 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   void initState() {
-    //todo
     super.initState();
   }
 
@@ -44,7 +42,6 @@ class _HomeState extends State<Home> {
                       NewsRow(
                           url:
                               "https://images.unsplash.com/photo-1701505708183-59f709e7d4e6?q=80&w=3264&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                          date: "2024-03-08",
                           preview: "Sample news preview $index",
                           title: "Sample news title $index")
                     ],

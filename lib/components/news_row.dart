@@ -3,13 +3,11 @@ import 'package:flutter/material.dart';
 class NewsRow extends StatelessWidget {
   const NewsRow({
     super.key,
-    required this.date,
     required this.preview,
     required this.title,
     required this.url,
   });
 
-  final String date;
   final String preview;
   final String title;
   final String url;
@@ -40,7 +38,7 @@ class NewsRow extends StatelessWidget {
             Text(preview),
             const SizedBox(height: 3.0),
             Text(
-              date,
+              "Tech news",
               style: const TextStyle(fontSize: 11.0),
             ),
           ],
