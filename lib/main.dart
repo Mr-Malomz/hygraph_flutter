@@ -6,7 +6,7 @@ void main() {
   runApp(const MyApp());
 }
 
-final HttpLink httpLink = HttpLink("URL GOES HERE");
+final HttpLink httpLink = HttpLink("COPIED ENDPOINT GOES HERE");
 
 final ValueNotifier<GraphQLClient> client =
     ValueNotifier<GraphQLClient>(GraphQLClient(
